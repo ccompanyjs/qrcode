@@ -1,0 +1,29 @@
+// Colors and Fonts
+$White: hsl(0, 0%, 100%);
+$LightGray: hsl(212, 45%, 89%);
+$GrayishBlue: hsl(220, 15%, 55%);
+$DarkBlue: hsl(218, 44%, 22%);
+$FontSizeDefault: 15px;
+$FontOutfit: 'Outfit', sans-serif;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $FontOutfit;
+  font-size: $FontSizeDefault;
+  background-color: $LightGray;
+}
+
+// Attribution
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
