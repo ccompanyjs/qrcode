@@ -1,0 +1,19 @@
+{
+  "name": "qrcode-components",
+  "version": "1.0.0",
+  "description": "qrcode",
+  "scripts": {
+    "gh::deploy": "gh-pages -d .",
+    "sass::wait": "sass --watch sass/index.scss css/index.css",
+    "sass::compile": "sass sass/index.scss css/index.css",
+    "server": "live-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.0.0",
+    "live-server": "^1.1.0",
+    "sass": "^1.68.0"
+  }
+}
