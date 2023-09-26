@@ -1,8 +1,8 @@
 // Colors and Fonts
-$White: hsl(0, 0%, 100%);
-$LightGray: hsl(212, 45%, 89%);
-$GrayishBlue: hsl(220, 15%, 55%);
-$DarkBlue: hsl(218, 44%, 22%);
+$White: #ffffff;
+$LightGray: #d6e2f0;
+$GrayishBlue: #7b879d;
+$DarkBlue: #1f3251;
 $FontSizeDefault: 15px;
 $FontOutfit: 'Outfit', sans-serif;
 
@@ -17,6 +17,9 @@ body {
   font-size: $FontSizeDefault;
   background-color: $LightGray;
 }
+
+// Card
+@import 'card';
 
 // Attribution
 .attribution {
